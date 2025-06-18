@@ -1,0 +1,31 @@
+Acurácia nos dados de treinamento: 94.20%
+Matriz de confusão (dados de treinamento):
+[[7 0 1]
+ [1 6 0]
+ [1 0 7]]
+Relatório de classificação (dados de treinamento):
+              precision    recall  f1-score   support
+
+    espanhol       0.88      0.95      0.91        22
+      inglês       1.00      1.00      1.00        23
+   português       0.95      0.88      0.91        24
+
+    accuracy                           0.94        69
+   macro avg       0.94      0.94      0.94        69
+weighted avg       0.94      0.94      0.94        69
+
+Matriz de confusão (dados de teste):
+[[7 0 1]
+ [1 6 0]
+ [1 0 7]]
+Relatório de classificação (dados de teste):
+              precision    recall  f1-score   support
+
+    espanhol       0.78      0.88      0.82         8
+      inglês       1.00      0.86      0.92         7
+   português       0.88      0.88      0.88         8
+
+    accuracy                           0.87        23
+   macro avg       0.88      0.87      0.87        23
+weighted avg       0.88      0.87      0.87        23
+
